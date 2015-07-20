@@ -1,4 +1,5 @@
-class TeachersController < ApplicationController
+
+class School::TeachersController < ApplicationController
   def index
     render text: "You are at the Teacher's index."
   end
